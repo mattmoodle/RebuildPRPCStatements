@@ -13,18 +13,21 @@ There is also a zip file that includes a .bat script. You can run it to invoke t
 You can run the rebuilder in several ways:
 
 - Copying - pasting the PEGA Tracer output into your command line, invoking the jar file without params:
-	java -jar RebuildPRPCStatements.jar
+	'java -jar RebuildPRPCStatements.jar'
+
+on MacOS / Unix:
+	'java -jar ./RebuildPRPCStatements.jar'
 
 - Using a text file with your PEGA Tracer output by invoking the jar file providing the file name, like:
-	java -jar RebuildPRPCStatements.jar query.txt
+	'java -jar RebuildPRPCStatements.jar query.txt'
 	
-	Use our query.txt as an example.
+	Use our 'query.txt' file as an example.
 
 - More to come!
 
 ### Known Issues
 
 - Only when using the Windows Command Line Interface, limit for each input string is 8192 characters. On this OS, we recommend to use Git Bash.
-- When providing a file, avoid multiple returns.
+- When providing a file, avoid multiple returns. Copy-pasting directly using command line requires multiple returns.
 
-### (c) matteo-lombardi, meryan83
+### (c) matteo-lombardi (now mattmoodle), meryan83
