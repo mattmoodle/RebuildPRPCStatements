@@ -13,15 +13,15 @@ There is also a zip file that includes a `.bat` script. You can run it to invoke
 You can run the rebuilder in several ways:
 
 - Copying - pasting the PEGA Tracer output into your command line, invoking the jar file without params:
-	`java -jar RebuildPRPCStatements.jar`
+  `java -jar RebuildPRPCStatements.jar`
 
 on MacOS / Unix:
-	`java -jar ./RebuildPRPCStatements.jar`
+  `java -jar ./RebuildPRPCStatements.jar`
 
 - Using a text file with your PEGA Tracer output by invoking the jar file providing the file name, like:
-	`java -jar RebuildPRPCStatements.jar query.txt`
-	
-	Use our `query.txt` file as an example.
+  `java -jar RebuildPRPCStatements.jar query.txt`
+
+  Use our `query.txt` file as an example.
 
 - More to come!
 
